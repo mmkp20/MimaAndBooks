@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:replace="fragments/header :: header">
+    <title>Online Store</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+</head>
+<body>
+<div class="container">
+    <div th:replace="fragments/bodyHeader :: bodyHeader" />
+    <img src="/img/cavapoo1.jpeg" class="main_img" width="720" height="720"/>
+    <div class="jumbotron">
+<!--    <div class="p-4 shadow-4 rounded-3" style="background-color: hsl(0, 0%, 94%);">-->
+        <br/>
+        <p class="lead">Customer Features</p>
+        <p>
+            <a class="btn btn-lg btn-secondary" href="/customers/new">Sign up</a>
+            <a class="btn btn-lg btn-secondary" href="/customers">Customer List</a>
+        </p>
+        <p class="lead">Product Features</p>
+        <p>
+            <a class="btn btn-lg btn-dark" href="/items/new">Add Product</a>
+            <a class="btn btn-lg btn-dark" href="/items">Product List</a>
+        </p>
+        <p class="lead">Order Features</p>
+        <p>
+            <a class="btn btn-lg btn-info" href="/order">Buy Now</a>
+            <a class="btn btn-lg btn-info" href="/orders">Order List</a>
+        </p>
+        <br/>
+    </div>
+    <div th:replace="fragments/footer :: footer" />
+</div> <!-- /container -->
+</body>
+</html>

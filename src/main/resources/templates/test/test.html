@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Shopping Mall</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Link to your CSS file -->
+</head>
+<body>
+<header>
+    <div class="container">
+        <h1>Welcome to the Mima Mall</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+    </div>
+</header>
+
+<section class="product-list">
+    <div class="container">
+        <h2>Featured Products</h2>
+        <ul th:each="product : ${products}">
+            <li>
+                <div class="product">
+                    <img th:src="${product.imageUrl}" alt="Product Image">
+                    <h3 th:text="${product.name}"></h3>
+                    <p th:text="${product.description}"></p>
+                    <span th:text="${product.price}"></span>
+                </div>
+            </li>
+        </ul>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2023 Shopping Mall</p>
+    </div>
+</footer>
+</body>
+</html>
