@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.Setter;
 
 
-
 @Getter @Setter
 public class CustomerForm {
     @NotEmpty(message="Name may not be empty.")
