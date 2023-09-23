@@ -1,21 +1,21 @@
 # MimaAndBooks 
 
-< Function > 
-1. User can sign up.
-2. User can see the user list.
-3. User can order products.
-4. User can see the product list.
-5. User can update the product's data.
-6. User can cancel the order.
-7. User can see order list.
+1) Functions
+1. Users can sign up.
+2. Users can see the user list.
+3. Users can order products.
+4. Users can see the product list.
+5. Users can update the product's data.
+6. Users can cancel the order.
+7. Users can see the order list.
    
-< Things to fix in the future >
+2) Things to fix in the future 
 1. UI - Add dropdown menu
 2. UI - Update Thymeleaf to React or Vue
 3. Implement a login feature
 4. Update Backend codes - @Query & etc
    
-< User Interface >
+3. User Interface
 
 ![Screenshot 2023-09-23 at 10 18 23 AM](https://github.com/mmkp20/MimaAndBooks/assets/78986796/b61b09be-5dc5-4215-9926-6a2985f59739)
 
