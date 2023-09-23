@@ -13,9 +13,10 @@
 1. UI - Add dropdown menu
 2. UI - Update Thymeleaf to React or Vue
 3. Implement a login feature
-4. Update Backend codes - @Query and etc
+4. Update Backend codes - @Query & etc
    
 < User Interface >
+
 ![Screenshot 2023-09-23 at 10 18 23 AM](https://github.com/mmkp20/MimaAndBooks/assets/78986796/b61b09be-5dc5-4215-9926-6a2985f59739)
 
 ![Screenshot 2023-09-23 at 10 18 35 AM](https://github.com/mmkp20/MimaAndBooks/assets/78986796/aad3b875-d500-4054-9b69-19a82b713f0c)
