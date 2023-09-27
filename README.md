@@ -37,9 +37,9 @@ Mima and Books is an online bookstore.
 
 ### 4. Order List
 ![Screenshot 2023-09-23 at 10 19 04 AM](https://github.com/mmkp20/MimaAndBooks/assets/78986796/5b2b2a13-35b0-44e6-9323-46d890a36d2a)
-- You can see the cancelled order history.
+- You can see the canceled order history.
   
 ![Screenshot 2023-09-23 at 10 19 22 AM](https://github.com/mmkp20/MimaAndBooks/assets/78986796/baf179b9-4334-406f-b457-0f394648d5b9)
 - You can see order history.
   
-## I am still learning Spring Framework. The project will be updated. Thank you for reading this post.
+
